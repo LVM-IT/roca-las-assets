@@ -2,6 +2,9 @@
 
 Assets for LVM LAS projects including JavaScript and CSS.
 
+You will find more information about using project:
+* [DE] https://lvm-it.github.io
+* [EN] ..
 ## Modules
 
 * [Preview](https://github.com/LVM-IT/roca-las-assets/tree/master/components/preview): A component to preview a link
