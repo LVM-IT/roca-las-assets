@@ -9,6 +9,18 @@ if (!target) {
   process.exit(1)
 }
 
+fs.exist(path.join(target,'fonts'),(exist)=>{
+ if (!exist){
+   fs.mkdir(path.join(target,'fonts'));
+ } 
+});
+
+fs.exist(path.join(target,'images'),(exist)=>{
+ if (!exist){
+   fs.mkdir(path.join(target,'images'));
+ } 
+});
+
 const copyContent = function (sourceDir, targetDir) {
   fs.readdir(sourceDir, function (err, names) {
     if (err) {
