@@ -1,17 +1,37 @@
-# LVM LAS Assets
+# RoCA LAS Assets
 
-Assets for LVM LAS projects including JavaScript and CSS.
+## Prerequisites
 
-You will find more information about roca vs. spa here: https://lvm-it.github.io
+```
+node.js >= 4.0
+```
 
-## Modules
+## Run with:
 
-* [Preview](https://github.com/LVM-IT/roca-las-assets/tree/master/components/preview): A component to preview a link
+```
+npm install
+npm run compile
+```
 
-## Contributing
+### general documentation
 
-* ensure [Node](http://nodejs.org) and the dependencies (via `npm install`) are installed
-* `npm install` downloads dependencies
-* `npm run compile` performs a one-time compilation, generating `dist/bundle.js`
-* `npm start` automatically recompiles while monitoring code changes
-* `npm test` checks code for stylistic consistency
+This repository was created as part of the evaluation project "single page application (SPA) and rest oriented client architecture (RoCA)". [More information] (http://lvm-it.github.io) 
+
+
+## Deutsche Version
+
+### Vorraussetzungen
+```
+node.js >= 4.0
+```
+### Anwendung starten
+
+```
+npm install
+npm run compile
+```
+
+### Allgemeine Dokumentation
+
+Dieses Projekt ist entstanden im Rahmen einer Evaluation der Architekturen Single Page Application (SPA) und rest oriented client architecture (ROCA). Weitere Informationen befinden sich [hier] (http://lvm-it.github.io)
+
