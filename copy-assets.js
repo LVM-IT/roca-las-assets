@@ -13,7 +13,7 @@ fs.stat(path.join(target,'fonts'),(err,stat)=>{
   if(err){
     console.log("error");
    fs.mkdir(path.join(target,'fonts')); 
-  }
+  } else
  if (!stat.isDirectory()){
    fs.mkdir(path.join(target,'fonts'));
  } 
@@ -24,7 +24,7 @@ fs.stat(path.join(target,'images'),(err,stat)=>{
   if(err){
     console.log("error");
    fs.mkdir(path.join(target,'images')); 
-  }
+  } else
  if (!stat.isDirectory()){
    fs.mkdir(path.join(target,'images'));
  } 
