@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Assets for LVM LAS projects",
   "homepage": "https://github.com/innoq/lvm-las-assets",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/innoq/lvm-las-assets/issues"
   },
